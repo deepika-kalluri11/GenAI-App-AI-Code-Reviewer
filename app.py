@@ -24,7 +24,7 @@ def get_fixed_code(code):
     return response.text
 
 # Streamlit UI
-st.title("🧑‍💻 AI Code Reviewer")
+st.title("AI Code Reviewer")
 
 # Code input box
 code = st.text_area("Enter your Python code here:", height=200)
@@ -38,8 +38,8 @@ if st.button("Review Code"):
             feedback = review_code(code)
             fixed_code = get_fixed_code(code)
 
-        st.subheader("🔍 AI Feedback:")
+        st.subheader("AI Feedback:")
         st.write(feedback)
 
-        st.subheader("✅ Fixed Code:")
+        st.subheader("Fixed Code:")
         st.code(fixed_code, language="python")
