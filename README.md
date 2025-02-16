@@ -12,3 +12,9 @@ Features:
 - Python 
 - Streamlit (for UI)  
 - Google Gemini API (for AI-powered code review)  
+
+![image](https://github.com/user-attachments/assets/2ef448b2-d30a-40b4-aba8-8ab65029c1da)
+
+![image](https://github.com/user-attachments/assets/326fb160-f121-4d94-96b1-8fe2e374737f)
+
+
